@@ -52,7 +52,7 @@ import pandas as pd
 
 ---
 
-## 1. Creating DataFrames
+## Creating DataFrames
 
 ### Function
 
@@ -95,7 +95,7 @@ A Pandas DataFrame object.
 
 ---
 
-## 2. Reading CSV Files
+## Reading CSV Files
 
 ### Function
 
