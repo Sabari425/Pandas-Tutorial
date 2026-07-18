@@ -64,350 +64,350 @@ A beginner-friendly repository to learn and practice Data Analysis using Pandas.
 
 ---
 
-## Dataset
+### Dataset
 ***Definition:*** A collection of related data organized in a structured format for analysis.
 
 ***Example:*** A CSV file containing customer details such as Name, Age, Country, and Salary.
 
 ---
 
-## Observation / Record / Instance / Sample
+### Observation / Record / Instance / Sample
 ***Definition:*** A single row in a dataset representing one individual entity or event.
 
 ***Example:*** One customer's information in a customer dataset.
 
 ---
 
-## Feature / Attribute / Variable / Column
+### Feature / Attribute / Variable / Column
 ***Definition:*** A measurable property or characteristic of an observation.
 
 ***Example:*** Age, Salary, Country, Gender.
 
 ---
 
-## Target Variable / Label
+### Target Variable / Label
 ***Definition:*** The output variable that a machine learning model aims to predict.
 
 ***Example:*** House Price, Customer Churn, Pass/Fail.
 
 ---
 
-## DataFrame
+### DataFrame
 ***Definition:*** A two-dimensional labeled data structure consisting of rows and columns.
 
 ***Example:*** A table containing employee information.
 
 ---
 
-## Series
+### Series
 ***Definition:*** A one-dimensional labeled array representing a single column of data.
 
 ***Example:*** The `Age` column of a dataset.
 
 ---
 
-## Index
+### Index
 ***Definition:*** Unique labels used to identify rows in a dataset.
 
 ***Example:*** 0, 1, 2, 3, ...
 
 ---
 
-## Shape
+### Shape
 ***Definition:*** The dimensions of a dataset represented as the number of rows and columns.
 
 ***Example:*** `(1000, 5)` means 1000 rows and 5 columns.
 
 ---
 
-## Dimension
+### Dimension
 ***Definition:*** The number of axes in a data structure.
 
 ***Example:*** A Series has 1 dimension, while a DataFrame has 2 dimensions.
 
 ---
 
-## Size
+### Size
 ***Definition:*** The total number of elements present in a dataset.
 
 ***Example:*** A dataset with 100 rows and 5 columns has a size of 500.
 
 ---
 
-## Data Type (dtype)
+### Data Type (dtype)
 ***Definition:*** The type of values stored in a column.
 
 ***Example:*** Integer, Float, String, Boolean, DateTime.
 
 ---
 
-## Missing Value / Null Value
+### Missing Value / Null Value
 ***Definition:*** A data value that is absent or unavailable.
 
 ***Example:*** A customer's phone number field left empty.
 
 ---
 
-## Duplicate Data
+### Duplicate Data
 ***Definition:*** Repeated observations appearing more than once in a dataset.
 
 ***Example:*** The same customer record stored twice.
 
 ---
 
-## Unique Values
+### Unique Values
 ***Definition:*** Distinct values present in a column.
 
 ***Example:*** Countries such as India, USA, and Germany appearing in a `Country` column.
 
 ---
 
-## Categorical Data
+### Categorical Data
 ***Definition:*** Data representing categories or groups rather than numerical quantities.
 
 ***Example:*** Gender, Department, Blood Group.
 
 ---
 
-## Numerical Data
+### Numerical Data
 ***Definition:*** Data represented by numbers and used for mathematical operations.
 
 ***Example:*** Age, Salary, Temperature.
 
 ---
 
-## Continuous Data
+### Continuous Data
 ***Definition:*** Numerical data that can take any value within a range.
 
 ***Example:*** Height = 172.56 cm.
 
 ---
 
-## Discrete Data
+### Discrete Data
 ***Definition:*** Numerical data that can take only specific countable values.
 
 ***Example:*** Number of Students = 45.
 
 ---
 
-## Structured Data
+### Structured Data
 ***Definition:*** Data organized in a predefined tabular format.
 
 ***Example:*** Excel files, SQL tables, CSV files.
 
 ---
 
-## Unstructured Data
+### Unstructured Data
 ***Definition:*** Data without a predefined format or organization.
 
 ***Example:*** Images, Videos, Audio files.
 
 ---
 
-## Semi-Structured Data
+### Semi-Structured Data
 ***Definition:*** Data that has some organizational properties but does not follow a strict tabular structure.
 
 ***Example:*** JSON and XML files.
 
 ---
 
-## Data Cleaning
+### Data Cleaning
 ***Definition:*** The process of detecting and correcting inaccurate, missing, or inconsistent data.
 
 ***Example:*** Filling missing salary values with the average salary.
 
 ---
 
-## Data Wrangling
+### Data Wrangling
 ***Definition:*** The process of transforming raw data into a usable format for analysis.
 
 ***Example:*** Combining multiple datasets and renaming columns.
 
 ---
 
-## Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 ***Definition:*** The process of analyzing and summarizing datasets to understand patterns and relationships.
 
 ***Example:*** Studying sales trends using statistical summaries and plots.
 
 ---
 
-## Aggregation
+### Aggregation
 ***Definition:*** The process of combining multiple values into summary statistics.
 
 ***Example:*** Calculating total sales for each country.
 
 ---
 
-## Filtering
+### Filtering
 ***Definition:*** Selecting a subset of data that satisfies specific conditions.
 
 ***Example:*** Selecting customers whose salary is greater than ₹50,000.
 
 ---
 
-## Sorting
+### Sorting
 ***Definition:*** Arranging data in ascending or descending order.
 
 ***Example:*** Sorting products by price.
 
 ---
 
-## Correlation
+### Correlation
 ***Definition:*** A statistical measure that indicates the strength and direction of the relationship between two variables.
 
 ***Example:*** Height and Weight often have a positive correlation.
 
 ---
 
-## Mean
+### Mean
 ***Definition:*** The arithmetic average of a set of values.
 
 ***Example:*** Average marks of students.
 
 ---
 
-## Median
+### Median
 ***Definition:*** The middle value in an ordered dataset.
 
 ***Example:*** Middle salary among employees.
 
 ---
 
-## Mode
+### Mode
 ***Definition:*** The value that appears most frequently in a dataset.
 
 ***Example:*** The most common blood group in a hospital dataset.
 
 ---
 
-## Standard Deviation
+### Standard Deviation
 ***Definition:*** A measure of how spread out data values are from the mean.
 
 ***Example:*** Measuring variation in student marks.
 
 ---
 
-## Variance
+### Variance
 ***Definition:*** The average of the squared differences from the mean.
 
 ***Example:*** Determining the spread of monthly sales values.
 
 ---
 
-## Minimum Value
+### Minimum Value
 ***Definition:*** The smallest value in a dataset.
 
 ***Example:*** Lowest temperature recorded.
 
 ---
 
-## Maximum Value
+### Maximum Value
 ***Definition:*** The largest value in a dataset.
 
 ***Example:*** Highest employee salary.
 
 ---
 
-## Quantile
+### Quantile
 ***Definition:*** Values that divide a dataset into equal-sized intervals.
 
 ***Example:*** Quartiles divide data into four equal parts.
 
 ---
 
-## Outlier
+### Outlier
 ***Definition:*** An observation that differs significantly from the majority of the data.
 
 ***Example:*** A salary value of ₹10,00,000 in a dataset where most salaries are below ₹1,00,000.
 
 ---
 
-## Feature Engineering
+### Feature Engineering
 ***Definition:*** The process of creating new useful features from existing data.
 
 ***Example:*** Creating `Total_Price = Price × Quantity`.
 
 ---
 
-## Encoding
+### Encoding
 ***Definition:*** The process of converting categorical data into numerical form.
 
 ***Example:*** Male = 0, Female = 1.
 
 ---
 
-## Scaling / Normalization
+### Scaling / Normalization
 ***Definition:*** The process of transforming numerical features into a common range.
 
 ***Example:*** Converting values from 0–1000 into 0–1.
 
 ---
 
-## Training Dataset
+### Training Dataset
 ***Definition:*** The portion of data used to train a machine learning model.
 
 ***Example:*** 80% of a customer dataset used for model learning.
 
 ---
 
-## Test Dataset
+### Test Dataset
 ***Definition:*** The portion of data used to evaluate a trained model.
 
 ***Example:*** Remaining 20% of customer data.
 
 ---
 
-## Validation Dataset
+### Validation Dataset
 ***Definition:*** A subset of data used to tune model parameters during training.
 
 ***Example:*** A portion of training data reserved for hyperparameter tuning.
 
 ---
 
-## Feature Matrix (X)
+### Feature Matrix (X)
 ***Definition:*** The set of input variables used for prediction.
 
 ***Example:*** Age, Salary, and Experience columns.
 
 ---
 
-## Target Vector (y)
+### Target Vector (y)
 ***Definition:*** The output variable associated with the feature matrix.
 
 ***Example:*** Employee Promotion Status.
 
 ---
 
-## Dimensionality Reduction
+### Dimensionality Reduction
 ***Definition:*** The process of reducing the number of features while preserving important information.
 
 ***Example:*** Using PCA to reduce 50 features to 10.
 
 ---
 
-## Time Series Data
+### Time Series Data
 ***Definition:*** Data collected and ordered over time intervals.
 
 ***Example:*** Daily stock prices.
 
 ---
 
-## Pivot Table
+### Pivot Table
 ***Definition:*** A summarized table used to aggregate and reorganize data.
 
 ***Example:*** Total sales by country and year.
 
 ---
 
-## Merge / Join
+### Merge / Join
 ***Definition:*** The process of combining two or more datasets based on common columns.
 
 ***Example:*** Joining customer and order datasets using Customer_ID.
 
 ---
 
-## Concatenation
+### Concatenation
 ***Definition:*** The process of appending datasets vertically or horizontally.
 
 ***Example:*** Combining monthly sales datasets into a yearly dataset.
