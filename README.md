@@ -91,7 +91,7 @@ df = pd.DataFrame(data)
 
 #### Returns
 
-###### A Pandas DataFrame object.
+##### A Pandas DataFrame object.
 
 ---
 
@@ -131,7 +131,7 @@ df = pd.read_csv("orders.csv")
 
 #### Returns
 
-DataFrame containing CSV data.
+##### DataFrame containing CSV data.
 
 ---
 
