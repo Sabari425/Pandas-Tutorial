@@ -72,345 +72,345 @@ A beginner-friendly repository to learn and practice Data Analysis using Pandas.
 ---
 
 ## Observation / Record / Instance / Sample
-**Definition:** A single row in a dataset representing one individual entity or event.
+***Definition:*** A single row in a dataset representing one individual entity or event.
 
-**Example:** One customer's information in a customer dataset.
+***Example:*** One customer's information in a customer dataset.
 
 ---
 
 ## Feature / Attribute / Variable / Column
-**Definition:** A measurable property or characteristic of an observation.
+***Definition:*** A measurable property or characteristic of an observation.
 
-**Example:** Age, Salary, Country, Gender.
+***Example:*** Age, Salary, Country, Gender.
 
 ---
 
 ## Target Variable / Label
-**Definition:** The output variable that a machine learning model aims to predict.
+***Definition:*** The output variable that a machine learning model aims to predict.
 
-**Example:** House Price, Customer Churn, Pass/Fail.
+***Example:*** House Price, Customer Churn, Pass/Fail.
 
 ---
 
 ## DataFrame
-**Definition:** A two-dimensional labeled data structure consisting of rows and columns.
+***Definition:*** A two-dimensional labeled data structure consisting of rows and columns.
 
-**Example:** A table containing employee information.
+***Example:*** A table containing employee information.
 
 ---
 
 ## Series
-**Definition:** A one-dimensional labeled array representing a single column of data.
+***Definition:*** A one-dimensional labeled array representing a single column of data.
 
-**Example:** The `Age` column of a dataset.
+***Example:*** The `Age` column of a dataset.
 
 ---
 
 ## Index
-**Definition:** Unique labels used to identify rows in a dataset.
+***Definition:*** Unique labels used to identify rows in a dataset.
 
-**Example:** 0, 1, 2, 3, ...
+***Example:*** 0, 1, 2, 3, ...
 
 ---
 
 ## Shape
-**Definition:** The dimensions of a dataset represented as the number of rows and columns.
+***Definition:*** The dimensions of a dataset represented as the number of rows and columns.
 
-**Example:** `(1000, 5)` means 1000 rows and 5 columns.
+***Example:*** `(1000, 5)` means 1000 rows and 5 columns.
 
 ---
 
 ## Dimension
-**Definition:** The number of axes in a data structure.
+***Definition:*** The number of axes in a data structure.
 
-**Example:** A Series has 1 dimension, while a DataFrame has 2 dimensions.
+***Example:*** A Series has 1 dimension, while a DataFrame has 2 dimensions.
 
 ---
 
 ## Size
-**Definition:** The total number of elements present in a dataset.
+***Definition:*** The total number of elements present in a dataset.
 
-**Example:** A dataset with 100 rows and 5 columns has a size of 500.
+***Example:*** A dataset with 100 rows and 5 columns has a size of 500.
 
 ---
 
 ## Data Type (dtype)
-**Definition:** The type of values stored in a column.
+***Definition:*** The type of values stored in a column.
 
-**Example:** Integer, Float, String, Boolean, DateTime.
+***Example:*** Integer, Float, String, Boolean, DateTime.
 
 ---
 
 ## Missing Value / Null Value
-**Definition:** A data value that is absent or unavailable.
+***Definition:*** A data value that is absent or unavailable.
 
-**Example:** A customer's phone number field left empty.
+***Example:*** A customer's phone number field left empty.
 
 ---
 
 ## Duplicate Data
-**Definition:** Repeated observations appearing more than once in a dataset.
+***Definition:*** Repeated observations appearing more than once in a dataset.
 
-**Example:** The same customer record stored twice.
+***Example:*** The same customer record stored twice.
 
 ---
 
 ## Unique Values
-**Definition:** Distinct values present in a column.
+***Definition:*** Distinct values present in a column.
 
-**Example:** Countries such as India, USA, and Germany appearing in a `Country` column.
+***Example:*** Countries such as India, USA, and Germany appearing in a `Country` column.
 
 ---
 
 ## Categorical Data
-**Definition:** Data representing categories or groups rather than numerical quantities.
+***Definition:*** Data representing categories or groups rather than numerical quantities.
 
-**Example:** Gender, Department, Blood Group.
+***Example:*** Gender, Department, Blood Group.
 
 ---
 
 ## Numerical Data
-**Definition:** Data represented by numbers and used for mathematical operations.
+***Definition:*** Data represented by numbers and used for mathematical operations.
 
-**Example:** Age, Salary, Temperature.
+***Example:*** Age, Salary, Temperature.
 
 ---
 
 ## Continuous Data
-**Definition:** Numerical data that can take any value within a range.
+***Definition:*** Numerical data that can take any value within a range.
 
-**Example:** Height = 172.56 cm.
+***Example:*** Height = 172.56 cm.
 
 ---
 
 ## Discrete Data
-**Definition:** Numerical data that can take only specific countable values.
+***Definition:*** Numerical data that can take only specific countable values.
 
-**Example:** Number of Students = 45.
+***Example:*** Number of Students = 45.
 
 ---
 
 ## Structured Data
-**Definition:** Data organized in a predefined tabular format.
+***Definition:*** Data organized in a predefined tabular format.
 
-**Example:** Excel files, SQL tables, CSV files.
+***Example:*** Excel files, SQL tables, CSV files.
 
 ---
 
 ## Unstructured Data
-**Definition:** Data without a predefined format or organization.
+***Definition:*** Data without a predefined format or organization.
 
-**Example:** Images, Videos, Audio files.
+***Example:*** Images, Videos, Audio files.
 
 ---
 
 ## Semi-Structured Data
-**Definition:** Data that has some organizational properties but does not follow a strict tabular structure.
+***Definition:*** Data that has some organizational properties but does not follow a strict tabular structure.
 
-**Example:** JSON and XML files.
+***Example:*** JSON and XML files.
 
 ---
 
 ## Data Cleaning
-**Definition:** The process of detecting and correcting inaccurate, missing, or inconsistent data.
+***Definition:*** The process of detecting and correcting inaccurate, missing, or inconsistent data.
 
-**Example:** Filling missing salary values with the average salary.
+***Example:*** Filling missing salary values with the average salary.
 
 ---
 
 ## Data Wrangling
-**Definition:** The process of transforming raw data into a usable format for analysis.
+***Definition:*** The process of transforming raw data into a usable format for analysis.
 
-**Example:** Combining multiple datasets and renaming columns.
+***Example:*** Combining multiple datasets and renaming columns.
 
 ---
 
 ## Exploratory Data Analysis (EDA)
-**Definition:** The process of analyzing and summarizing datasets to understand patterns and relationships.
+***Definition:*** The process of analyzing and summarizing datasets to understand patterns and relationships.
 
-**Example:** Studying sales trends using statistical summaries and plots.
+***Example:*** Studying sales trends using statistical summaries and plots.
 
 ---
 
 ## Aggregation
-**Definition:** The process of combining multiple values into summary statistics.
+***Definition:*** The process of combining multiple values into summary statistics.
 
-**Example:** Calculating total sales for each country.
+***Example:*** Calculating total sales for each country.
 
 ---
 
 ## Filtering
-**Definition:** Selecting a subset of data that satisfies specific conditions.
+***Definition:*** Selecting a subset of data that satisfies specific conditions.
 
-**Example:** Selecting customers whose salary is greater than ₹50,000.
+***Example:*** Selecting customers whose salary is greater than ₹50,000.
 
 ---
 
 ## Sorting
-**Definition:** Arranging data in ascending or descending order.
+***Definition:*** Arranging data in ascending or descending order.
 
-**Example:** Sorting products by price.
+***Example:*** Sorting products by price.
 
 ---
 
 ## Correlation
-**Definition:** A statistical measure that indicates the strength and direction of the relationship between two variables.
+***Definition:*** A statistical measure that indicates the strength and direction of the relationship between two variables.
 
-**Example:** Height and Weight often have a positive correlation.
+***Example:*** Height and Weight often have a positive correlation.
 
 ---
 
 ## Mean
-**Definition:** The arithmetic average of a set of values.
+***Definition:*** The arithmetic average of a set of values.
 
-**Example:** Average marks of students.
+***Example:*** Average marks of students.
 
 ---
 
 ## Median
-**Definition:** The middle value in an ordered dataset.
+***Definition:*** The middle value in an ordered dataset.
 
-**Example:** Middle salary among employees.
+***Example:*** Middle salary among employees.
 
 ---
 
 ## Mode
-**Definition:** The value that appears most frequently in a dataset.
+***Definition:*** The value that appears most frequently in a dataset.
 
-**Example:** The most common blood group in a hospital dataset.
+***Example:*** The most common blood group in a hospital dataset.
 
 ---
 
 ## Standard Deviation
-**Definition:** A measure of how spread out data values are from the mean.
+***Definition:*** A measure of how spread out data values are from the mean.
 
-**Example:** Measuring variation in student marks.
+***Example:*** Measuring variation in student marks.
 
 ---
 
 ## Variance
-**Definition:** The average of the squared differences from the mean.
+***Definition:*** The average of the squared differences from the mean.
 
-**Example:** Determining the spread of monthly sales values.
+***Example:*** Determining the spread of monthly sales values.
 
 ---
 
 ## Minimum Value
-**Definition:** The smallest value in a dataset.
+***Definition:*** The smallest value in a dataset.
 
-**Example:** Lowest temperature recorded.
+***Example:*** Lowest temperature recorded.
 
 ---
 
 ## Maximum Value
-**Definition:** The largest value in a dataset.
+***Definition:*** The largest value in a dataset.
 
-**Example:** Highest employee salary.
+***Example:*** Highest employee salary.
 
 ---
 
 ## Quantile
-**Definition:** Values that divide a dataset into equal-sized intervals.
+***Definition:*** Values that divide a dataset into equal-sized intervals.
 
-**Example:** Quartiles divide data into four equal parts.
+***Example:*** Quartiles divide data into four equal parts.
 
 ---
 
 ## Outlier
-**Definition:** An observation that differs significantly from the majority of the data.
+***Definition:*** An observation that differs significantly from the majority of the data.
 
-**Example:** A salary value of ₹10,00,000 in a dataset where most salaries are below ₹1,00,000.
+***Example:*** A salary value of ₹10,00,000 in a dataset where most salaries are below ₹1,00,000.
 
 ---
 
 ## Feature Engineering
-**Definition:** The process of creating new useful features from existing data.
+***Definition:*** The process of creating new useful features from existing data.
 
-**Example:** Creating `Total_Price = Price × Quantity`.
+***Example:*** Creating `Total_Price = Price × Quantity`.
 
 ---
 
 ## Encoding
-**Definition:** The process of converting categorical data into numerical form.
+***Definition:*** The process of converting categorical data into numerical form.
 
-**Example:** Male = 0, Female = 1.
+***Example:*** Male = 0, Female = 1.
 
 ---
 
 ## Scaling / Normalization
-**Definition:** The process of transforming numerical features into a common range.
+***Definition:*** The process of transforming numerical features into a common range.
 
-**Example:** Converting values from 0–1000 into 0–1.
+***Example:*** Converting values from 0–1000 into 0–1.
 
 ---
 
 ## Training Dataset
-**Definition:** The portion of data used to train a machine learning model.
+***Definition:*** The portion of data used to train a machine learning model.
 
-**Example:** 80% of a customer dataset used for model learning.
+***Example:*** 80% of a customer dataset used for model learning.
 
 ---
 
 ## Test Dataset
-**Definition:** The portion of data used to evaluate a trained model.
+***Definition:*** The portion of data used to evaluate a trained model.
 
-**Example:** Remaining 20% of customer data.
+***Example:*** Remaining 20% of customer data.
 
 ---
 
 ## Validation Dataset
-**Definition:** A subset of data used to tune model parameters during training.
+***Definition:*** A subset of data used to tune model parameters during training.
 
-**Example:** A portion of training data reserved for hyperparameter tuning.
+***Example:*** A portion of training data reserved for hyperparameter tuning.
 
 ---
 
 ## Feature Matrix (X)
-**Definition:** The set of input variables used for prediction.
+***Definition:*** The set of input variables used for prediction.
 
-**Example:** Age, Salary, and Experience columns.
+***Example:*** Age, Salary, and Experience columns.
 
 ---
 
 ## Target Vector (y)
-**Definition:** The output variable associated with the feature matrix.
+***Definition:*** The output variable associated with the feature matrix.
 
-**Example:** Employee Promotion Status.
+***Example:*** Employee Promotion Status.
 
 ---
 
 ## Dimensionality Reduction
-**Definition:** The process of reducing the number of features while preserving important information.
+***Definition:*** The process of reducing the number of features while preserving important information.
 
-**Example:** Using PCA to reduce 50 features to 10.
+***Example:*** Using PCA to reduce 50 features to 10.
 
 ---
 
 ## Time Series Data
-**Definition:** Data collected and ordered over time intervals.
+***Definition:*** Data collected and ordered over time intervals.
 
-**Example:** Daily stock prices.
+***Example:*** Daily stock prices.
 
 ---
 
 ## Pivot Table
-**Definition:** A summarized table used to aggregate and reorganize data.
+***Definition:*** A summarized table used to aggregate and reorganize data.
 
-**Example:** Total sales by country and year.
+***Example:*** Total sales by country and year.
 
 ---
 
 ## Merge / Join
-**Definition:** The process of combining two or more datasets based on common columns.
+***Definition:*** The process of combining two or more datasets based on common columns.
 
-**Example:** Joining customer and order datasets using Customer_ID.
+***Example:*** Joining customer and order datasets using Customer_ID.
 
 ---
 
 ## Concatenation
-**Definition:** The process of appending datasets vertically or horizontally.
+***Definition:*** The process of appending datasets vertically or horizontally.
 
-**Example:** Combining monthly sales datasets into a yearly dataset.
+***Example:*** Combining monthly sales datasets into a yearly dataset.
 
 ---
 # Prerequisites
