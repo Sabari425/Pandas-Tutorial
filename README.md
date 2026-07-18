@@ -2,10 +2,10 @@
 
 # Pandas Data Analysis Fundamentals
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()
-[![Pandas](https://img.shields.io/badge/Pandas-2.x-green.svg)]()
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)]()
-[![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Pandas-150458.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.x-green.svg)](https://www.w3schools.com/python/pandas/default.asp)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Pandas-150458.svg)](https://www.geeksforgeeks.org/python/python-data-analysis-using-pandas/)
 
 A beginner-friendly repository to learn and practice Data Analysis using Pandas.
 
