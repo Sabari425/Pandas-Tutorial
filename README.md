@@ -135,7 +135,7 @@ DataFrame containing CSV data.
 
 ---
 
-## 3. Reading Excel Files
+## Reading Excel Files
 
 #### Function
 
@@ -167,7 +167,7 @@ df = pd.read_excel("orders.xlsx")
 
 ---
 
-## 4. Display First Rows
+## Display First Rows
 
 #### Function
 
@@ -193,7 +193,7 @@ First `n` rows of dataframe.
 
 ---
 
-## 5. Display Last Rows
+## Display Last Rows
 
 #### Function
 
@@ -215,7 +215,7 @@ df.tail(3)
 
 ---
 
-## 6. Data Information
+## Data Information
 
 #### Function
 
@@ -238,7 +238,7 @@ df.info()
 
 ---
 
-## 7. Statistical Summary
+## Statistical Summary
 
 #### Function
 
@@ -263,7 +263,7 @@ df.describe()
 
 ---
 
-## 8. Display Column Names
+## Display Column Names
 
 #### Property
 
@@ -287,7 +287,7 @@ Returns all column labels.
 
 ---
 
-## 9. Display Index
+## Display Index
 
 #### Property
 
@@ -305,7 +305,7 @@ Returns row indexing information.
 
 ---
 
-## 10. Selecting Columns
+## Selecting Columns
 
 #### Single Column
 
@@ -339,7 +339,7 @@ Returns DataFrame.
 
 ---
 
-## 11. Integer Based Indexing
+## Integer Based Indexing
 
 #### Function
 
@@ -365,7 +365,7 @@ df.iloc[2,3]
 
 ---
 
-## 12. Label Based Indexing
+## Label Based Indexing
 
 #### Function
 
@@ -394,7 +394,7 @@ df.loc[
 
 ---
 
-## 13. Conditional Filtering
+## Conditional Filtering
 
 ###### Equality
 
@@ -422,7 +422,7 @@ df[condition]
 
 ---
 
-## 14. Logical Operators
+## Logical Operators
 
 #### AND
 
@@ -472,7 +472,7 @@ Example:
 
 ---
 
-## 15. Membership Checking
+## Membership Checking
 
 #### Function
 
@@ -498,7 +498,7 @@ Returns Boolean Series.
 
 ---
 
-## 16. String Operations
+## String Operations
 
 #### Starts With
 
@@ -570,7 +570,7 @@ Series.str.title()
 
 ---
 
-## 17. Updating Values
+## Updating Values
 
 ```python
 df.loc[
@@ -590,7 +590,7 @@ df.loc[
 
 ---
 
-## 18. Removing Rows or Columns
+## Removing Rows or Columns
 
 #### Function
 
@@ -620,7 +620,7 @@ df.drop(
 
 ---
 
-## 19. Removing Missing Values
+## Removing Missing Values
 
 #### Function
 
@@ -645,7 +645,7 @@ df.dropna()
 
 ---
 
-## 20. Filling Missing Values
+## Filling Missing Values
 
 #### Function
 
@@ -667,7 +667,7 @@ df.fillna(0)
 
 ---
 
-## 21. Renaming Columns
+## Renaming Columns
 
 #### Function
 
@@ -697,7 +697,7 @@ df.rename(
 
 ---
 
-## 22. Counting Unique Values
+## Counting Unique Values
 
 #### Function
 
@@ -719,7 +719,7 @@ df["Country"].value_counts()
 
 ---
 
-## 23. Grouping Data
+## Grouping Data
 
 #### Function
 
@@ -743,7 +743,7 @@ df.groupby(
 
 ---
 
-## 24. Sorting Data
+## Sorting Data
 
 #### Function
 
@@ -771,7 +771,7 @@ df.sort_values(
 
 ---
 
-## 25. Exporting Data
+## Exporting Data
 
 #### Function
 
