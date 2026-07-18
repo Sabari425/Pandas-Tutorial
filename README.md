@@ -52,15 +52,15 @@ import pandas as pd
 
 ---
 
-# 1. Creating DataFrames
+## 1. Creating DataFrames
 
-## Function
+### Function
 
 ```python
 pd.DataFrame(data)
 ```
 
-### Syntax
+#### Syntax
 
 ```python
 pd.DataFrame(
@@ -70,7 +70,7 @@ pd.DataFrame(
 )
 ```
 
-### Parameters
+#### Parameters
 
 | Parameter | Description |
 |-----------|-------------|
@@ -78,7 +78,7 @@ pd.DataFrame(
 | `index` | Row labels |
 | `columns` | Column names |
 
-### Example
+#### Example
 
 ```python
 data = {
@@ -89,21 +89,21 @@ data = {
 df = pd.DataFrame(data)
 ```
 
-### Returns
+#### Returns
 
 A Pandas DataFrame object.
 
 ---
 
-# 2. Reading CSV Files
+## 2. Reading CSV Files
 
-## Function
+### Function
 
 ```python
 pd.read_csv()
 ```
 
-### Syntax
+#### Syntax
 
 ```python
 pd.read_csv(
@@ -113,13 +113,13 @@ pd.read_csv(
 )
 ```
 
-### Example
+#### Example
 
 ```python
 df = pd.read_csv("orders.csv")
 ```
 
-### Common Parameters
+#### Common Parameters
 
 | Parameter | Purpose |
 |------------|----------|
@@ -129,21 +129,21 @@ df = pd.read_csv("orders.csv")
 | `index_col` | Set index column |
 | `encoding` | File encoding |
 
-### Returns
+#### Returns
 
 DataFrame containing CSV data.
 
 ---
 
-# 3. Reading Excel Files
+## 3. Reading Excel Files
 
-## Function
+#### Function
 
 ```python
 pd.read_excel()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 pd.read_excel(
@@ -152,13 +152,13 @@ pd.read_excel(
 )
 ```
 
-### Example
+###### Example
 
 ```python
 df = pd.read_excel("orders.xlsx")
 ```
 
-### Parameters
+###### Parameters
 
 | Parameter | Description |
 |-----------|-------------|
@@ -167,47 +167,47 @@ df = pd.read_excel("orders.xlsx")
 
 ---
 
-# 4. Display First Rows
+## 4. Display First Rows
 
-## Function
+#### Function
 
 ```python
 df.head()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.head(n=5)
 ```
 
-### Example
+###### Example
 
 ```python
 df.head(10)
 ```
 
-### Returns
+###### Returns
 
 First `n` rows of dataframe.
 
 ---
 
-# 5. Display Last Rows
+## 5. Display Last Rows
 
-## Function
+#### Function
 
 ```python
 df.tail()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.tail(n=5)
 ```
 
-### Example
+###### Example
 
 ```python
 df.tail(3)
@@ -215,21 +215,21 @@ df.tail(3)
 
 ---
 
-# 6. Data Information
+## 6. Data Information
 
-## Function
-
-```python
-df.info()
-```
-
-### Syntax
+#### Function
 
 ```python
 df.info()
 ```
 
-### Returns
+###### Syntax
+
+```python
+df.info()
+```
+
+###### Returns
 
 - Total rows
 - Non-null count
@@ -238,21 +238,21 @@ df.info()
 
 ---
 
-# 7. Statistical Summary
+## 7. Statistical Summary
 
-## Function
-
-```python
-df.describe()
-```
-
-### Syntax
+#### Function
 
 ```python
 df.describe()
 ```
 
-### Returns
+###### Syntax
+
+```python
+df.describe()
+```
+
+###### Returns
 
 - Count
 - Mean
@@ -263,21 +263,21 @@ df.describe()
 
 ---
 
-# 8. Display Column Names
+## 8. Display Column Names
 
-## Property
-
-```python
-df.columns
-```
-
-### Syntax
+#### Property
 
 ```python
 df.columns
 ```
 
-### Example
+###### Syntax
+
+```python
+df.columns
+```
+
+###### Example
 
 ```python
 print(df.columns)
@@ -287,15 +287,15 @@ Returns all column labels.
 
 ---
 
-# 9. Display Index
+## 9. Display Index
 
-## Property
+#### Property
 
 ```python
 df.index
 ```
 
-### Example
+###### Example
 
 ```python
 print(df.index)
@@ -305,15 +305,15 @@ Returns row indexing information.
 
 ---
 
-# 10. Selecting Columns
+## 10. Selecting Columns
 
-## Single Column
+#### Single Column
 
 ```python
 df["Country"]
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df[column_name]
@@ -323,13 +323,13 @@ Returns Series object.
 
 ---
 
-## Multiple Columns
+#### Multiple Columns
 
 ```python
 df[["Country","Price"]]
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df[[col1,col2,...]]
@@ -339,21 +339,21 @@ Returns DataFrame.
 
 ---
 
-# 11. Integer Based Indexing
+## 11. Integer Based Indexing
 
-## Function
+#### Function
 
 ```python
 df.iloc[]
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.iloc[row, column]
 ```
 
-### Examples
+###### Examples
 
 ```python
 df.iloc[0]
@@ -365,21 +365,21 @@ df.iloc[2,3]
 
 ---
 
-# 12. Label Based Indexing
+## 12. Label Based Indexing
 
-## Function
+#### Function
 
 ```python
 df.loc[]
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.loc[row_label, column_label]
 ```
 
-### Examples
+###### Examples
 
 ```python
 df.loc[0]
@@ -394,27 +394,27 @@ df.loc[
 
 ---
 
-# 13. Conditional Filtering
+## 13. Conditional Filtering
 
-### Equality
+###### Equality
 
 ```python
 df[df["Country"]=="USA"]
 ```
 
-### Greater Than
+###### Greater Than
 
 ```python
 df[df["Price"] > 500]
 ```
 
-### Less Than
+###### Less Than
 
 ```python
 df[df["Quantity"] < 10]
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df[condition]
@@ -422,9 +422,9 @@ df[condition]
 
 ---
 
-# 14. Logical Operators
+## 14. Logical Operators
 
-## AND
+#### AND
 
 ```python
 &
@@ -441,7 +441,7 @@ df[
 
 ---
 
-## OR
+#### OR
 
 ```python
 |
@@ -458,7 +458,7 @@ df[
 
 ---
 
-## NOT
+#### NOT
 
 ```python
 ~
@@ -472,21 +472,21 @@ Example:
 
 ---
 
-# 15. Membership Checking
+## 15. Membership Checking
 
-## Function
+#### Function
 
 ```python
 isin()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.isin(values)
 ```
 
-### Example
+###### Example
 
 ```python
 df["Country"].isin(
@@ -498,15 +498,15 @@ Returns Boolean Series.
 
 ---
 
-# 16. String Operations
+## 16. String Operations
 
-## Starts With
+#### Starts With
 
 ```python
 df["Name"].str.startswith("A")
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.str.startswith(pattern)
@@ -514,13 +514,13 @@ Series.str.startswith(pattern)
 
 ---
 
-## Ends With
+#### Ends With
 
 ```python
 df["Name"].str.endswith("n")
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.str.endswith(pattern)
@@ -528,13 +528,13 @@ Series.str.endswith(pattern)
 
 ---
 
-## Convert to Uppercase
+#### Convert to Uppercase
 
 ```python
 df["Country"].str.upper()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.str.upper()
@@ -542,13 +542,13 @@ Series.str.upper()
 
 ---
 
-## Convert to Lowercase
+#### Convert to Lowercase
 
 ```python
 df["Country"].str.lower()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.str.lower()
@@ -556,13 +556,13 @@ Series.str.lower()
 
 ---
 
-## Convert to Title Case
+#### Convert to Title Case
 
 ```python
 df["Country"].str.title()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.str.title()
@@ -570,7 +570,7 @@ Series.str.title()
 
 ---
 
-# 17. Updating Values
+## 17. Updating Values
 
 ```python
 df.loc[
@@ -579,7 +579,7 @@ df.loc[
 ] = value
 ```
 
-### Example
+###### Example
 
 ```python
 df.loc[
@@ -590,15 +590,15 @@ df.loc[
 
 ---
 
-# 18. Removing Rows or Columns
+## 18. Removing Rows or Columns
 
-## Function
+#### Function
 
 ```python
 drop()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.drop(
@@ -607,7 +607,7 @@ df.drop(
 )
 ```
 
-### Examples
+###### Examples
 
 ```python
 df.drop(5)
@@ -620,15 +620,15 @@ df.drop(
 
 ---
 
-# 19. Removing Missing Values
+## 19. Removing Missing Values
 
-## Function
+#### Function
 
 ```python
 dropna()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.dropna(
@@ -637,7 +637,7 @@ df.dropna(
 )
 ```
 
-### Example
+###### Example
 
 ```python
 df.dropna()
@@ -645,21 +645,21 @@ df.dropna()
 
 ---
 
-# 20. Filling Missing Values
+## 20. Filling Missing Values
 
-## Function
+#### Function
 
 ```python
 fillna()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.fillna(value)
 ```
 
-### Example
+###### Example
 
 ```python
 df.fillna(0)
@@ -667,15 +667,15 @@ df.fillna(0)
 
 ---
 
-# 21. Renaming Columns
+## 21. Renaming Columns
 
-## Function
+#### Function
 
 ```python
 rename()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.rename(
@@ -685,7 +685,7 @@ df.rename(
 )
 ```
 
-### Example
+###### Example
 
 ```python
 df.rename(
@@ -697,21 +697,21 @@ df.rename(
 
 ---
 
-# 22. Counting Unique Values
+## 22. Counting Unique Values
 
-## Function
+#### Function
 
 ```python
 value_counts()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.value_counts()
 ```
 
-### Example
+###### Example
 
 ```python
 df["Country"].value_counts()
@@ -719,21 +719,21 @@ df["Country"].value_counts()
 
 ---
 
-# 23. Grouping Data
+## 23. Grouping Data
 
-## Function
+#### Function
 
 ```python
 groupby()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.groupby(column)
 ```
 
-### Example
+###### Example
 
 ```python
 df.groupby(
@@ -743,15 +743,15 @@ df.groupby(
 
 ---
 
-# 24. Sorting Data
+## 24. Sorting Data
 
-## Function
+#### Function
 
 ```python
 sort_values()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.sort_values(
@@ -760,7 +760,7 @@ df.sort_values(
 )
 ```
 
-### Example
+###### Example
 
 ```python
 df.sort_values(
@@ -771,15 +771,15 @@ df.sort_values(
 
 ---
 
-# 25. Exporting Data
+## 25. Exporting Data
 
-## Function
+#### Function
 
 ```python
 to_csv()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.to_csv(
@@ -788,7 +788,7 @@ df.to_csv(
 )
 ```
 
-### Example
+###### Example
 
 ```python
 df.to_csv(
@@ -799,15 +799,15 @@ df.to_csv(
 
 ---
 
-# Frequently Used Small Commands
+## Frequently Used Small Commands
 
-## Shape of Dataset
+#### Shape of Dataset
 
 ```python
 df.shape
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.shape
@@ -821,13 +821,13 @@ Returns:
 
 ---
 
-## Data Types
+#### Data Types
 
 ```python
 df.dtypes
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.dtypes
@@ -835,13 +835,13 @@ df.dtypes
 
 ---
 
-## Number of Rows
+#### Number of Rows
 
 ```python
 len(df)
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 len(object)
@@ -849,13 +849,13 @@ len(object)
 
 ---
 
-## Unique Values
+#### Unique Values
 
 ```python
 df["Country"].unique()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.unique()
@@ -863,13 +863,13 @@ Series.unique()
 
 ---
 
-## Number of Unique Values
+#### Number of Unique Values
 
 ```python
 df["Country"].nunique()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 Series.nunique()
@@ -877,13 +877,13 @@ Series.nunique()
 
 ---
 
-## Copy DataFrame
+#### Copy DataFrame
 
 ```python
 df.copy()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.copy(deep=True)
@@ -891,13 +891,13 @@ df.copy(deep=True)
 
 ---
 
-## Save Excel File
+#### Save Excel File
 
 ```python
 df.to_excel()
 ```
 
-### Syntax
+###### Syntax
 
 ```python
 df.to_excel(
